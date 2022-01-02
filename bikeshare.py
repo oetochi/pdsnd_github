@@ -50,7 +50,7 @@ def get_filters():
     
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day_name = input("\nType 'all' (without the quotation sign) for no day filter or sunday, monday, ..., saturday to see weekday results.\n\n")
+        day_name = input("\nSelect sunday, monday, ..., saturday to see weekday results or all for no filter.\n\n")
         day = day_name.lower()
         if day in days:
             break

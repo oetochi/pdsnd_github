@@ -48,7 +48,7 @@ Initial Release
 
 # License
 
- This project does not require any licence. You can use or modify the codes here to help you in anyway you deem fit.
+ You can freely copy the codes of this project if it helps you complete similar task. But I would appreciate acknowledging me in your work.
 
 
 # Acknowledgments

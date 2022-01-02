@@ -53,7 +53,10 @@ Initial Release
 
 # Acknowledgments
 
-### In executing this project, I got inspiration from the following sources:
+### In executing this project, I got inspiration from the following persons and sources:
+
+* Juno Lee - Python Instructor
+* Richard Kalehoff - Version Control
 
 [Realpython](https://realpython.com/python-formatted-output/)
 

@@ -224,7 +224,7 @@ def display_raw_data(df):
     print(df.head())
     n = 0
     while True:
-        raw_data = input("\nIt would be nice to see bikeshare raw data. Type 'yes' to display 5 rows or 'no' to bypass.\n")
+        raw_data = input("\nType 'yes' to display 5 rows of the raw data, or 'no' to bypass.\n")
         if raw_data.lower() == 'yes':
             n = n + 5
             print(df.iloc[n-5:n, :])
@@ -253,7 +253,7 @@ def main():
             else:
                 print('Invalid input')
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        reboot = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 

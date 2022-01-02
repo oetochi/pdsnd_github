@@ -242,12 +242,12 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         birth_year_stats(df)
-        n = 0
+        x = 0
         while True:
             raw_data = input("\nType 'yes' to display 5 rows of the raw data or 'no' to bypass.\n")
             if raw_data.lower() == 'yes':
-                n = n + 5
-                print(df.iloc[n-5:n, :])
+                x = x + 5
+                print(df.iloc[x-5:x, :])
             elif raw_data.lower() == 'no':
                 break
             else:
